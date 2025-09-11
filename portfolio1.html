@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #2b6cb0;
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+      position: relative;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.3rem;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #2b6cb0;
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
+      text-align: center;
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      margin: 1.5rem 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .skills span {
+      display: inline-block;
+      background: #e2e8f0;
+      padding: 0.6rem 1rem;
+      margin: 0.4rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .projects-grid .card {
+      padding: 1.5rem;
+    }
+    .contact-info a {
+      color: #2b6cb0;
+      text-decoration: none;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #edf2f7;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      header p {
+        font-size: 1.1rem;
+      }
+      h2 {
+        font-size: 1.7rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ahmed Samir</h1>
+    <p>Generative AI Specialist & Data Analyst</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>I am a Generative AI enthusiast and Data Analyst with an engineering background in Electrical Communications. My journey blends strong technical foundations with a passion for artificial intelligence, data-driven decision making, and building solutions that create real-world impact. I am focused on advancing my career in AI engineering and contributing to innovative projects in machine learning and generative models.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="card">
+      <p><strong>Bachelor of Engineering, Electrical Communications Department</strong> – Alexandria University</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="card skills">
+      <span>Python</span>
+      <span>Pandas & NumPy</span>
+      <span>Machine Learning</span>
+      <span>Generative AI</span>
+      <span>Deep Learning</span>
+      <span>Data Visualization</span>
+      <span>SQL</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="card">
+        <h3>Housing Data EDA & Visualization</h3>
+        <p>Performed exploratory data analysis on housing datasets using Pandas, NumPy, and Matplotlib. Built clear visualizations to uncover insights and trends that support data-driven decisions.</p>
+        <a href="https://github.com/ahmedsamir4199-lang/Housing-EDA" target="_blank">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Neural Network from Scratch</h3>
+        <p>Implemented perceptrons and multi-layer neural networks using only Python and NumPy to deepen understanding of the mathematical foundations of deep learning.</p>
+        <a href="https://github.com/ahmedsamir4199-lang/Neural-Network-From-Scratch" target="_blank">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Classification with Logistic Regression</h3>
+	<p>Implemented logistic regression for binary classification tasks and evaluated model performance with accuracy metrics and visualization.</p>
+	<a href="https://github.com/ahmedsamir4199-lang/Logistic-Regression-Classification" target="_blank">View Project</a>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card contact-info">
+      <p>Email: <a href="mailto:ahmed.samir.4199@gmail.com">ahmed.samir.4199@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/ahmed-samir-a74a14252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin.com/in/ahmed-samir</a></p>
+      <p>GitHub: <a href="https://github.com/ahmedsamir4199-lang">github.com/ahmedsamir4199-lang</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Ahmed Samir. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
